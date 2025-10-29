@@ -6,7 +6,7 @@ jdk:
 
 # Maven build commands
 script:
-  - mvn clean install
+  - mvn -B clean install
 
 # Optional: enable caching for faster builds
 cache:
