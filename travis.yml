@@ -1,0 +1,14 @@
+language: java
+
+# Use Java 8 since pom.xml targets 1.8
+jdk:
+  - openjdk8
+
+# Maven build commands
+script:
+  - mvn clean install
+
+# Optional: enable caching for faster builds
+cache:
+  directories:
+    - $HOME/.m2
