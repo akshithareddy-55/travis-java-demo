@@ -10,8 +10,16 @@ public class AppTest {
         assertEquals(5, App.add(2, 3));
     }
 
+<<<<<<< HEAD
 @Test
     void testSubstraction() {
         assertEquals(5, App.sub(7, 2));
     }
 }
+=======
+    @Test
+    void testSubstraction() {
+        assertEquals(5, App.sub(7, 2));
+    }
+}
+>>>>>>> a9b37422889f281e45084253aaabd472ed4c300f
