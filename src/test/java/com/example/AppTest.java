@@ -9,4 +9,9 @@ public class AppTest {
     void testAddition() {
         assertEquals(5, App.add(2, 3));
     }
+
+@Test
+    void testSubstraction() {
+        assertEquals(5, App.sub(7, 2));
+    }
 }
